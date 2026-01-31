@@ -1,0 +1,199 @@
+* {
+
+        font-family: "Times New Roman", serif;
+        font-family: Georgia, serif;
+        scroll-behavior: smooth;
+}
+
+
+
+
+:root {
+        --green-main: #2F4F3E;
+        --green-dark: #1F3A2E;
+        --yellow-main: #F4B41A;
+        --yellow-light: #FFE4A3;
+        --bg-main: #FFFFFF;
+        --bg-soft: #F9FAF7;
+        --text-dark: #111827;
+        --text-muted: #6B7280;
+}
+
+.LOGO {
+        font-size: 30px;
+        color: #1F3A2E;
+        font-weight: bold;
+}
+
+.LOGO:hover {
+        color: #1F3A2E;
+
+
+}
+
+.navlink {
+        color: #1F3A2E;
+        font-size: 19px;
+
+
+}
+
+.navlink:hover {
+        color: #1F3A2E;
+
+
+}
+
+.navlinkul {
+        border: 2px solid transparent;
+        border-radius: 20px;
+}
+
+.navlinkul:hover {
+        border: 1px solid #bfb1b8;
+        border-radius: 20px;
+        box-shadow: 5px 10px 10px rgba(207, 162, 209, 0.5)
+}
+
+.contactbtn {
+        border: 1px solid grey;
+        color: #1F3A2E;
+        border-radius: 20px;
+        background: #ffffff;
+
+}
+
+.contactbtn:hover {
+        box-shadow: 5px 10px 10px rgba(207, 162, 209, 0.5)
+}
+
+.herosec {
+        font-size: 66px;
+        line-height: 90px;
+}
+
+.herospan {
+        font-size: 25px;
+
+}
+
+.heropara {
+        line-height: 30px;
+        font-size: 15px;
+        text-align: center;
+
+
+}
+
+.btn-2 {
+        border: 1px solid grey;
+        color: #1F3A2E;
+        border-radius: 20px;
+        background: #ea24ed;
+        background: linear-gradient(90deg, rgba(234, 36, 237, 1) 0%, rgba(158, 0, 45, 0.24) 57%, rgba(232, 94, 30, 0.8) 100%);
+
+}
+
+.btn-3 {
+        border: 1px solid grey;
+        color: #1F3A2E;
+        border-radius: 20px;
+        background-color: #F9FAF7;
+
+
+
+}
+
+.btn-2:hover {
+        filter: brightness(1.2);
+        cursor: pointer;
+}
+
+.btn-3:hover {
+        background-color: #e8eae5;
+        /* slightly darker on hover */
+        cursor: pointer;
+}
+
+.aboutpara {
+        line-height: 30px;
+}
+
+.colab {
+        padding: 20px;
+        border: 1px solid grey;
+        margin: 10px;
+        border-radius: 10px;
+        transition: transform 0.9s ease;
+
+
+}
+
+.imgic {
+        height: 28px;
+        width: 26px;
+}
+
+.colab:hover {
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+        border-radius: 10px;
+        transform: translateY(-8px);
+        /* moves up */
+        background-color: #f7eff8;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+        .LOGO {
+                font-size: 20px;
+                color: #1F3A2E;
+                font-weight: bold;
+        }
+
+        .herospan {
+                font-size: 15px;
+
+        }
+
+        .heropara {
+                display: none;
+
+        }
+
+        .herosec {
+                font-size: 47px;
+                line-height: 90px;
+        }
+
+        .aboutpara {
+                line-height: 25px;
+                font-size: 14px;
+        }
+
+
+
+
+}
